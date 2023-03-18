@@ -9,6 +9,7 @@ contract YulTypes {
     }
 
     // here i have used the inline assembly to set the value of x 
+    // inline assembly can read the value of x directly bcoz it is a local variable 
     // execution cost 350 gas 
     function setValue() external pure returns(uint) {
         uint x;
@@ -104,7 +105,7 @@ contract YulTypes {
 
 --> a string by default is not a bytes32 
 
---> x in the function scope was refered by the x in assembly scope 
+--> x in the function scope was refered by the x in assembly scope, only local variable can be accesed directly 
 
 --> Yul just makes a interpretation when u use a string,int,address etc since it is of bytes32 
 
