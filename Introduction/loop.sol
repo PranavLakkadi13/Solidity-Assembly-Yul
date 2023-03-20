@@ -41,6 +41,7 @@ contract checkPrime {
     }
 }
 /*
+---------------------------------------------------------NOTE------------------------------------------
 --> Yul has for loops and it is a language that is one level above assembly
 
 --> In Yul every operation is called as a function
