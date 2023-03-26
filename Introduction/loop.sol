@@ -47,7 +47,7 @@ contract checkPrime {
 --> In Yul every operation is called as a function
 
 --> add(x, y) => x + y
-    div(x, y)  => x / y
+    div(x, y)  => x / y or 0 if y == 0
     lt(x, y)  => 1 if x < y, 0 otherwise
     iszero(x) => 1 if x == 0, 0 otherwise
 
