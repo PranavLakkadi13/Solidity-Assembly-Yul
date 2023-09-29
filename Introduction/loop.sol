@@ -14,7 +14,7 @@ contract checkPrime {
             // in the for part i can write it without specifyting the iniatialisation and icremnet statement inside the loop
             // provided i initialise outside the loop 
             // let i := 2
-            // for {} lt(i, hlafx) {} {
+            // for {} lt(i, halfx) {} {
             // }
             for {let i := 2} lt(i,halfx) {i := add(i, 1)} {
                 // other way is if eq(mod(x,i), 0) {}
