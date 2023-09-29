@@ -70,6 +70,10 @@ contract YulTypes {
 
         assembly {
             // x := 123 // input for address
+            
+            // o == false
+            // 1 == true
+            
             x := 0 // input for bool 
             // x := 123 // input for uint
         }
