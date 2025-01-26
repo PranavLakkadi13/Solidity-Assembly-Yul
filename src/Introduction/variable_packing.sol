@@ -33,7 +33,7 @@ contract Variable {
 --> in solidity we have variable packing, that is in some cases more than 1 variable can have the
     same location slot. example:- uint128 d, uint128 e
 
---> inside the storage array, the variale is loaded from the left side that is why even tho the 
+--> inside the storage array, the variable is loaded from the left side that is why even tho the 
     variable d is stored first the value is found in the left side 
 
     00000000000000000000000000000001 => value of e
